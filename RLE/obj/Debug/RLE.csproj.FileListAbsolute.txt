@@ -1,0 +1,10 @@
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\bin\Debug\RLE.exe.config
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\bin\Debug\RLE.exe
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\bin\Debug\RLE.pdb
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.Form1.resources
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.Properties.Resources.resources
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.csproj.GenerateResource.Cache
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.exe
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\RLE.pdb
+C:\Users\Александр\Desktop\Склад\Проекты\Утилиты\RLE сжатие\RLE\RLE\obj\Debug\Стеганография.Author.resources
