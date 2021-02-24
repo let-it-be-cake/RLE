@@ -10,7 +10,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Стеганография;
+using Стеганография; // Просто любопытно, почему на русском? Почему не Shorthand?
 
 namespace RLE
 {
@@ -45,7 +45,7 @@ namespace RLE
 
         }
 
-        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e) // exitToolStripMenuItem_Click
         {
             this.Close();
         }
@@ -78,7 +78,7 @@ namespace RLE
             reader.Close();
         }
 
-        private void обзорТекстаДляСжатияToolStripMenuItem_Click(object sender, EventArgs e)
+        private void обзорТекстаДляСжатияToolStripMenuItem_Click(object sender, EventArgs e) // OverviewOfTextForCompressionToolStripMenuItem_Click
         {
             openFileDialog1.Title = "Выберите файл";
             openFileDialog1.Filter = "Текстовые файлы|*.txt";
@@ -92,7 +92,7 @@ namespace RLE
             reader.Close();
         }
 
-        private void обзорТекстаДляРаспаковкиToolStripMenuItem_Click(object sender, EventArgs e)
+        private void обзорТекстаДляРаспаковкиToolStripMenuItem_Click(object sender, EventArgs e) // OverviewOfTextForDecompressionToolStripMenuItem_Click
         {
             openFileDialog1.Title = "Выберите файл";
             openFileDialog1.Filter = "Текстовые файлы|*.txt";
@@ -106,7 +106,7 @@ namespace RLE
             reader.Close();
         }
 
-        private void экспортироватьСжатыйТекстToolStripMenuItem_Click(object sender, EventArgs e)
+        private void экспортироватьСжатыйТекстToolStripMenuItem_Click(object sender, EventArgs e) // ExportCompressedTextToolStripMenuItem_Click
         {
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Title = "Выберите файл";
@@ -118,7 +118,7 @@ namespace RLE
             MessageBox.Show("Файл успешно сохранен", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
-        private void экспортироватьРаспакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e)
+        private void экспортироватьРаспакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e) // ExportUnpacketTextToolStripMenuItem_Click
         {
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Title = "Выберите файл";
@@ -136,7 +136,7 @@ namespace RLE
             authors.Show();
         }
 
-        private void копироватьЗапакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e)
+        private void копироватьЗапакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e) //CopyPackedTextToolStripMenuItem_Click
         {
             if (PackedTextBox.Text.Length > 0)
             {
@@ -149,7 +149,7 @@ namespace RLE
             }
         }
 
-        private void копироватьРаспакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e)
+        private void копироватьРаспакованныйТекстToolStripMenuItem_Click(object sender, EventArgs e) //CopyUnpackedTextToolStripMenuItem_Click
         {
             if (UnpackedTextBox.Text.Length > 0)
             {
@@ -280,7 +280,7 @@ namespace RLE
             UnpackedTextBox.Text = decode(ForUnpackTextBox.Text);
         }
 
-        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e) // HelpToolStripMenuItem_Click
         {
             WebBrowser webBrowser1 = new WebBrowser();
             var helper = Properties.Resources.helper;
